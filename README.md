@@ -19,7 +19,7 @@
 
 **Ссылка на GitHub Pages:**
 
-- [Путешествия по России](https://nadfire.github.io/mesto-project/)
+- [Mesto](https://nadfire.github.io/mesto-project/)
 
 **Макет:**
 
