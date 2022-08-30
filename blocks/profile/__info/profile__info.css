@@ -1,7 +1,7 @@
 .profile__info {
   display: grid;
-  column-gap: 18px;
-  row-gap: 8px;
+  column-gap: 20px;
+  row-gap: 9px;
   grid-template-columns: fit-content(294px) min-content;
   color: #fff;
   align-items: baseline;
