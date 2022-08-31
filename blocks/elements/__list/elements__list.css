@@ -1,4 +1,4 @@
-.elements__item {
+.elements__list {
   display: grid;
   row-gap: 20px;
   column-gap: 17px;
@@ -9,19 +9,19 @@
 }
 
 @media screen and (max-width: 767px) {
-  .elements__item {
+  .elements__list {
     grid-template-columns: repeat(1, 282px);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .elements__item {
+  .elements__list {
     grid-template-columns: repeat(2, 282px);
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .elements__item {
+  .elements__list {
     grid-template-columns: repeat(3, 282px);
   }
 }

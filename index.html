@@ -9,9 +9,7 @@
   <body class="page">
     <!--header-->
     <header class="header">
-      <div class="header__inner">
-        <img class="header__logo" src="./images/logo.svg" alt="логотип Место" />
-      </div>
+      <img class="header__logo" src="./images/logo.svg" alt="логотип Место" />
     </header>
     <!-- profile -->
     <main class="content">
@@ -24,15 +22,23 @@
           />
           <div class="profile__info">
             <h1 class="profile__name">Жак-Ив Кусто</h1>
-            <button class="profile__button-edit" type="button"></button>
+            <button
+              class="profile__button-edit"
+              type="button"
+              aria-label="Редактировать профиль"
+            ></button>
             <p class="profile__description">Исследователь океана</p>
           </div>
         </div>
-        <button class="profile__button-add" type="button"></button>
+        <button
+          class="profile__button-add"
+          type="button"
+          aria-label="Добавить фото"
+        ></button>
       </section>
       <!-- elements -->
       <section class="elements">
-        <ul class="elements__item">
+        <ul class="elements__list">
           <li class="element">
             <img
               class="element__image"
@@ -41,7 +47,11 @@
             />
             <div class="element__caption">
               <h2 class="element__title">Мыс Тобизина</h2>
-              <button class="element__button-like" type="button"></button>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
             </div>
           </li>
           <li class="element">
@@ -52,7 +62,11 @@
             />
             <div class="element__caption">
               <h2 class="element__title">Камчатка</h2>
-              <button class="element__button-like" type="button"></button>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
             </div>
           </li>
           <li class="element">
@@ -63,7 +77,11 @@
             />
             <div class="element__caption">
               <h2 class="element__title">Озеро Рица</h2>
-              <button class="element__button-like" type="button"></button>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
             </div>
           </li>
           <li class="element">
@@ -74,7 +92,11 @@
             />
             <div class="element__caption">
               <h2 class="element__title">Гора Эльбрус</h2>
-              <button class="element__button-like" type="button"></button>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
             </div>
           </li>
           <li class="element">
@@ -85,7 +107,11 @@
             />
             <div class="element__caption">
               <h2 class="element__title">Домбай</h2>
-              <button class="element__button-like" type="button"></button>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
             </div>
           </li>
           <li class="element">
@@ -96,7 +122,11 @@
             />
             <div class="element__caption">
               <h2 class="element__title">Карачаево-Черкессия</h2>
-              <button class="element__button-like" type="button"></button>
+              <button
+                class="element__button-like"
+                type="button"
+                aria-label="Поставить лайк"
+              ></button>
             </div>
           </li>
         </ul>
@@ -107,25 +137,31 @@
       <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
     </footer>
     <!-- popup -->
-    <section class="popup popup_opened">
+    <section class="popup">
       <div class="popup__container">
-        <form class="popup__form">
-          <h2 class="popup__heading">Редактировать профиль</h2>
+        <form class="popup__form" name="profile__edit">
+          <h3 class="popup__heading">Редактировать профиль</h3>
           <input
             type="text"
             class="popup__input"
             name="name"
             placeholder="Имя"
+            required
           />
           <input
             type="text"
             class="popup__input"
             name="about"
             placeholder="О себе"
+            required
           />
           <button class="popup__button-save" type="submit">Сохранить</button>
         </form>
-        <button class="popup__button-close" type="button"></button>
+        <button
+          class="popup__button-close"
+          type="button"
+          aria-label="Закрыть"
+        ></button>
       </div>
     </section>
   </body>
