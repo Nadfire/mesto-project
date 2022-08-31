@@ -1,18 +1,16 @@
-.footer {
-  margin: 0 auto;
+.header__inner {
   max-width: 880px;
-  padding: 67px 0 60px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
-  .footer {
-    padding: 51px 0 36px;
+  .header__inner {
     max-width: 282px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .footer {
+  .header__inner {
     max-width: 581px;
   }
 }
