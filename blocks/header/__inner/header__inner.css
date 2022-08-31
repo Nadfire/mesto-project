@@ -1,16 +1,6 @@
-.header__inner {
-  max-width: 880px;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 767px) {
   .header__inner {
     max-width: 282px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .header__inner {
-    max-width: 581px;
+    margin: 0 auto;
   }
 }
